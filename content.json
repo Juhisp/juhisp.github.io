@@ -1,0 +1,24 @@
+{
+    "schedule": [
+        { "start": "2018-11-15 12:00 GMT+2", "end": "2018-11-15 12:00 GMT+2", "event": "Event 1", "location": "Main Stage" },
+        { "start": "2018-11-15 12:10 GMT+2", "end": "2018-11-15 12:10 GMT+2", "event": "Event 2", "location": "Keynote Stage" },
+        { "start": "2018-11-15 12:20 GMT+2", "end": "2018-11-15 12:20 GMT+2", "event": "Event 3", "location": "Tent" },
+        { "start": "2018-11-16 12:30 GMT+2", "end": "2018-11-16 12:30 GMT+2", "event": "A really very totally long event name 4", "location": "Location 4" },
+        { "start": "2018-11-16 12:40 GMT+2", "end": "2018-11-16 12:40 GMT+2", "event": "Event 5", "location": "Location 5" },
+        { "start": "2018-11-16 12:50 GMT+2", "end": "2018-11-16 12:50 GMT+2", "event": "Only first 5 events are shown", "location": "Location 6" }
+    ],
+    "notes": [
+        { "start": "2016-01-01 12:00 GMT+2", "end": "2026-01-01 23:59 GMT+2", "text": "A note is shown from \"start\" to \"end\"" }
+    ],
+    "figures": [{
+            "start": "2016-01-01 12:00 GMT+2",
+            "end": "2026-01-01 12:00 GMT+2",
+            "html": "<div style='font-size: 3em;' class='centered'><span>Extra slides can be written in <b>HTML.</b></span></div>"
+        },
+        {
+            "start": "2016-01-01 12:00 GMT+2",
+            "end": "2026-01-01 12:00 GMT+2",
+            "html": "<div style='font-size: 3em;' class='centered'><span>Multiple slides can be added</span></div>"
+        }
+    ]
+}
