@@ -8,7 +8,6 @@
     <meta name="description" content="">
     <meta http-equiv="Cache-Control" content="no-store" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&amp;subset=latin-ext" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700,900" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -22,16 +21,6 @@
                 <div id="program">
                     <ul id="programlist">
                     </ul>
-                </div>
-                <div id="note"></div>
-                <div id="info">
-                    <div id="logo">
-                        <img src="common/junction_logo-1.png"alt="LOGO" />
-                    </div>
-<!--                    <div>
-                        <p>General info here</p>
-                        <p>github.com/Blizzara/infoscreen</p>
-</div> -->
                 </div>
         </figure>
     </div>
@@ -103,35 +92,12 @@
             });
         }
 
-        function printNote(note) {
-            $('#note').empty();
-            if (note) {
-                $('#note').append($('<span></span>').text(note.text));
-            }
-        }
-
-        function printFigures(figures) {
-            $('.auto').remove();
-            figures.forEach((f) => {
-                var figure = $('<figure class="auto"></figure>');
-                figure.append(f.html);
-                $('#figures').append(figure);
-            });
-            slideshow.reset();
-        }
-
         var data = "";
 
         function updateContent() {
             var now = new Date();
             var events = _(data.schedule).orderBy((e) => e.start).filter((e) => new Date(e.end) > now).take(NUM_OF_EVENTS).value();
             printEvents(events);
-
-            var note = _(data.notes).filter((n) => new Date(n.start) < now && new Date(n.end) > now).orderBy((n) => n.start).take(1).value()[0];
-            printNote(note);
-
-            var figures = _(data.figures).filter((n) => new Date(n.start) < now && new Date(n.end) > now).value();
-            printFigures(figures);
         }
 
         function getAndUpdateContent() {
@@ -151,12 +117,6 @@
             });
         }
 
-        var image = 0;
-
-        function swapImages() {
-            image = image == 1 ? 2 : 1;
-            $('#image').css("background-image", "url(img" + image + ".jpg)");
-        }
 
         function reload() {
             $.ajax({
@@ -170,18 +130,12 @@
         }
 
         // INIT
-        swapImages();
         getAndUpdateContent();
 
         var SEC = 1000;
         var MIN = 60 * SEC;
 
-        // PARTNER CHANGE
-        setInterval(swapImages, 100 * SEC);
 
-        // CONTENT SWITCH
-        slideshow.start(2000 * SEC);
-        // CONTENT UPDATE AT CYLCE END!
 
         // TOTAL REFRESH
         setInterval(reload, 5 * MIN);
