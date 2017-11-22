@@ -1,0 +1,34 @@
+\\ Saturday and sunday schedules, update them after the previous day's program has ended
+
+{
+    "schedule": [
+        { "start": "2018-11-25 09:00 GMT+2", "end": "2018-11-25 10:00 GMT+2", "event": "Spotify workshop", "location": "Workshop Room" },
+        { "start": "2018-11-25 10:00 GMT+2", "end": "2018-11-25 15:00 GMT+2", "event": "Launchpad & Meeting Area", "location": "Tent" },
+        { "start": "2018-11-25 11:00 GMT+2", "end": "2018-11-25 12:00 GMT+2", "event": "Mindfulness", "location": "Keynote Stage" },
+        { "start": "2018-11-25 13:00 GMT+2", "end": "2018-11-25 14:00 GMT+2", "event": "Public speaking workshop & open mic", "location": "Keynote Stage" },
+        { "start": "2018-11-25 15:30 GMT+2", "end": "2018-11-25 20:00 GMT+2", "event": "Keynotes", "location": "Keynote Stage" },
+        { "start": "2018-11-25 17:00 GMT+2", "end": "2018-11-25 18:00 GMT+2", "event": "BlackRock workshop", "location": "Keynote Stage" },
+        { "start": "2018-11-25 18:30 GMT+2", "end": "2018-11-25 20:00 GMT+2", "event": "Hackathon Organizer workshop", "location": "Design Factory" },
+        { "start": "2018-11-25 20:30 GMT+2", "end": "2018-11-25 21:00 GMT+2", "event": "Code in the dark", "location": "Keynote Stage" },
+        { "start": "2018-11-25 21:00 GMT+2", "end": "2018-11-25 23:00 GMT+2", "event": "Movie night in Kinopoli", "location": "Kinopoli" },
+        { "start": "2018-11-25 22:00 GMT+2", "end": "2018-11-25 22:00 GMT+2", "event": "Karaoke & Sauna", "location": "Startup Sauna" },
+        { "start": "2018-11-26 10:00 GMT+2", "end": "2018-11-26 10:30 GMT+2", "event": "Submission deadline", "location": "" },
+        { "start": "2018-11-26 12:00 GMT+2", "end": "2018-11-26 15:00 GMT+2", "event": "Demo Expo", "location": "Track areas" },
+        { "start": "2018-11-26 15:00 GMT+2", "end": "2018-11-26 17:30 GMT+2", "event": "Judging ceremony", "location": "Main Stage" },
+        { "start": "2018-11-26 17:30 GMT+2", "end": "2018-11-26 19:00 GMT+2", "event": "Final", "location": "Main Stage" }
+    ],
+    "notes": [
+        { "start": "2016-01-01 12:00 GMT+2", "end": "2026-01-01 23:59 GMT+2", "text": "A note is shown from \"start\" to \"end\"" }
+    ],
+    "figures": [{
+            "start": "2016-01-01 12:00 GMT+2",
+            "end": "2026-01-01 12:00 GMT+2",
+            "html": "<div style='font-size: 3em;' class='centered'><span>Extra slides can be written in <b>HTML.</b></span></div>"
+        },
+        {
+            "start": "2016-01-01 12:00 GMT+2",
+            "end": "2026-01-01 12:00 GMT+2",
+            "html": "<div style='font-size: 3em;' class='centered'><span>Multiple slides can be added</span></div>"
+        }
+    ]
+}

@@ -19,23 +19,16 @@
 <body>
     <div id="figures" class="slideshow" tabindex="1" autofocus="autofocus">
         <figure>
-            <div class="left" id="main">
+            <div id="main">
                 <div id="program">
                     <ul id="programlist">
                     </ul>
                 </div>
                 <div id="note"></div>
-                <div id="info">
-                    <div id="logo">
-                        <img src="common/junction_logo-1.png"alt="LOGO" />
-                    </div>
-<!--                    <div>
-                        <p>General info here</p>
-                        <p>github.com/Blizzara/infoscreen</p>
-</div> -->
+                <div id="logo">
+                    <img id="junction_logo" src="common/junction_logo-1.png"alt="LOGO" />
+                    <img id="sun_fx_logo" src="common/sun-effects_white.png"alt="LOGO" />
                 </div>
-            </div>
-            <div class="right" id="image">
             </div>
         </figure>
     </div>
@@ -155,13 +148,6 @@
             });
         }
 
-        var image = 0;
-
-        function swapImages() {
-            image = image == 1 ? 2 : 1;
-            $('#image').css("background-image", "url(img" + image + ".jpg)");
-        }
-
         function reload() {
             $.ajax({
                 url: '../log.php?url=' + location.pathname,
@@ -174,14 +160,10 @@
         }
 
         // INIT
-        swapImages();
         getAndUpdateContent();
 
         var SEC = 1000;
         var MIN = 60 * SEC;
-
-        // PARTNER CHANGE
-        setInterval(swapImages, 100 * SEC);
 
         // CONTENT SWITCH
         slideshow.start(2000 * SEC);

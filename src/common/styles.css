@@ -16,6 +16,12 @@ body {
     font-family: 'Lato Light', sans-serif;
 }
 
+#main {
+    padding: 2em;
+    height: 100%;
+    width: 100%;
+}
+
 h1,
 h2,
 h3 {
@@ -46,13 +52,6 @@ p {
     margin-top: 0.5em;
 }
 
-.left {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-}
 
 .slideshow {
     position: relative;
@@ -79,24 +78,12 @@ p {
     z-index: 2;
 }
 
-.right {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 50%;
-    height: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 
 figure {
     height: 100%;
     background-color: #232323;
 }
 
-div#main {
-    padding: 1em;
-}
 
 #main span {
     display: inline-block;
@@ -118,40 +105,39 @@ div#main {
 #sched_header {
     color: #35E2DF;
     border-bottom: 2px solid;
+    text-transform:uppercase;
+    font-family: 'Montserrat'
 }
 
 div#program {
-    border-top: 70px;
     height: 70%;
 }
 
 div#note {
-    height: 22%;
+    height: 20%;
     text-align: center;
 }
 
-div#info {
-    height: 8%;
-}
-
 div#logo {
-    /* margin-right: 0.4em; */
+    height: 10%;
     margin: auto;
-    width: 40%;
-    /* height: 30%; */
-
-
+    width: 50%;
 }
 
 #logo img {
     max-height: 100%;
-    max-width: 100%;
+    max-width: 50%;
 }
 
-div#info div {
-    /* display: inline-block; */
-    vertical-align: top;
-    font-size: 3.5vh;
+#junction_logo {
+    padding-right: 1em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+}
+
+#sun_fx_logo {
+    padding-left: 5em;
+
 }
 
 div.centered {
