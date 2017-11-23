@@ -111,7 +111,7 @@
             $('.auto').remove();
             figures.forEach((f) => {
                 var figure = $('<figure class="auto"></figure>');
-                figure.append(f.html);
+                figure.append(f.html + '<div id="logo"><img id="junction_logo" src="common/junction_logo-1.png"alt="LOGO" /><img id="sun_fx_logo" src="common/sun-effects_white.png"alt="LOGO" /></div>');
                 $('#figures').append(figure);
             });
             slideshow.reset();
@@ -166,7 +166,7 @@
         var MIN = 60 * SEC;
 
         // CONTENT SWITCH
-        slideshow.start(20 * SEC);
+        slideshow.start(2000 * SEC);
         // CONTENT UPDATE AT CYLCE END!
 
         // TOTAL REFRESH
