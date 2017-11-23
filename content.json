@@ -1,6 +1,7 @@
 {
     "schedule": [
         { "start": "2018-11-24 18:00 GMT+2", "end": "2018-11-24 19:00 GMT+2", "event": "Opening Ceremony", "location": "Main Stage" },
+        { "start": "2018-11-24 20:00 GMT+2", "end": "2018-11-24 20:30 GMT+2", "event": "Game Jam Info Session", "location": "Keynote Stage" },
         { "start": "2018-11-24 20:15 GMT+2", "end": "2018-11-24 21:00 GMT+2", "event": "Team Building", "location": "Track Areas" }
     ],
     "notes": [
@@ -9,7 +10,7 @@
     "figures": [{
             "start": "2016-01-01 12:00 GMT+2",
             "end": "2026-01-01 12:00 GMT+2",
-            "html": "<div style='font-size: 3em;' class='centered'><span>Submissions closing in: <b id='timer'>HTML</b></span><script>var countDownDate=new Date('Nov 26, 2017 10:00:00').getTime(),x=setInterval(function(){var e=(new Date).getTime(),t=countDownDate-e,o=Math.floor(t/864e5),n=Math.floor(t%864e5/36e5),a=Math.floor(t%36e5/6e4),r=Math.floor(t%6e4/1e3);document.getElementById('timer').innerHTML=o+'d '+n+'h '+a+'m '+r+'s ',t<0&&(clearInterval(x),document.getElementById('timer').innerHTML='submissions closed!')},1e3);</script></div>"
+            "html": "<div style='font-size: 3em;' class='centered'><span>Submissions closing in: <b id='timer'>HTML</b></span><script>var countDownDate=new Date('Nov 26, 2017 10:00:00').getTime(),x=setInterval(function(){var e=(new Date).getTime(),t=countDownDate-e,o=Math.floor(t/864e5),n=Math.floor(t%864e5/36e5),a=Math.floor(t%36e5/6e4),r=Math.floor(t%6e4/1e3);document.getElementById('timer').innerHTML=o+'d '+n+':'+a+':'+r,t<0&&(clearInterval(x),document.getElementById('timer').innerHTML='submissions closed!')},1e3);</script></div>"
         }
     ]
 }
