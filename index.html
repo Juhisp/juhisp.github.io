@@ -150,7 +150,7 @@
 
         function reload() {
             $.ajax({
-                url: '../log.php?url=' + location.pathname,
+                url: 'log.php?url=' + location.pathname,
                 type: 'GET',
                 cache: 'false',
                 success: function(response) {
