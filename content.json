@@ -22,17 +22,7 @@
         {
             "start": "2016-01-01 12:00 GMT+2",
             "end": "2026-01-01 12:00 GMT+2",
-            "html": "<div style='' class='centered'> <ul id='programlist'> <li id='sched_header'> <span class='event' style='font-weight:700;'>Saturday keynotes</span> </li><li> Holvi: Sakari Ellonen <span style='float:right;padding-right:1em;'>15.30</span></li><li> Silo.ai: Ville Hulkko </li><li> Aalto Showcase: Perttu Hämäläinen <span style='float:right;padding-right:1em;'>16.15</span></li><li> Aalto Showcase: Varun Singh </li><li>Aalto Showcase: Mika Juuti &amp Andrew Paverd <span style='float:right;padding-right:1em;'>16.55</span></li><li> Assembly: Jussi Laakkonen </li><li> Jonathan Mägi <span style='float:right;padding-right:1em;'>17.35</span></li><li> BlackRock </li><li> 46elks: Martin Thuresson <span style='float:right;padding-right:1em;'>18.20</span></li><li> Siili </li><li> Eve-tech: Velimir Elezovic </li></ul></div>"
-        },
-        {
-            "start": "2016-01-01 12:00 GMT+2",
-            "end": "2026-01-01 12:00 GMT+2",
-            "html": "<div style='font-size: 1.8em;' class='centered'><div style='padding-top: 3em;'><span style='padding-left:3em;margin:auto;'>Photowall at the main stage. Go take your Junction photos!</span></div><ul style='width:23%;margin:auto;'><li >11.00-13.00</li><li>15.00-17.00</li><li>18.00-20.00</li></div>"
-        },
-        {
-            "start": "2016-01-01 12:00 GMT+2",
-            "end": "2026-01-01 12:00 GMT+2",
-            "html": "<div style='font-size: 2.4em;' class='centered'><span style='margin:auto;font-family:Montserrat;text-transform:uppercase;'><b>&quot;Lauantaina vietetään niin sanottua pääpäivää.&quot; -HS</b></span></div>"
+            "html": "<div style='font-size: 2.0em;' class='centered'><span style='margin:auto;'>Devpost instructions: live.hackjunction.com/devpost<br><br>Demo expo instructions: live.hackjunction.com/demo-expo</span></div>"
         }
     ]
 }
