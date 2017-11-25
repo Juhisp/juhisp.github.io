@@ -1,8 +1,5 @@
 {
     "schedule": [
-        { "start": "2018-11-25 09:00 GMT+2", "end": "2018-11-25 10:00 GMT+2", "event": "Spotify workshop", "location": "Workshop Room" },
-        { "start": "2018-11-25 10:00 GMT+2", "end": "2018-11-25 11:00 GMT+2", "event": "Mindfulness", "location": "Keynote Stage" },
-        { "start": "2018-11-25 10:30 GMT+2", "end": "2018-11-25 11:15 GMT+2", "event": "ESA workshop", "location": "Workshop Room (Poli)" },
         { "start": "2018-11-25 12:30 GMT+2", "end": "2018-11-25 13:15 GMT+2", "event": "BlackRock Capture the Flag", "location": "Workshop Room (Poli)" },
         { "start": "2018-11-25 13:00 GMT+2", "end": "2018-11-25 15:00 GMT+2", "event": "Finnish Orienteering by Aalto Adventures", "location": "Outside" },
         { "start": "2018-11-25 13:00 GMT+2", "end": "2018-11-25 13:30 GMT+2", "event": "Public speaking workshop", "location": "Keynote Stage" },
@@ -26,7 +23,7 @@
         {
             "start": "2016-01-01 12:00 GMT+2",
             "end": "2026-01-01 12:00 GMT+2",
-            "html": "<div style='' class='centered'> <ul id='programlist'> <li id='sched_header'> <span class='event' style='font-weight:700;'>Saturday keynotes</span> </li><li> Holvi: Sakari Ellonen </li><li> Silo.ai: Ville Hulkko </li><li> Aalto Showcase: Perttu Hämäläinen </li><li> Aalto Showcase: Varun Singh </li><li>Aalto Showcase: Mika Juuti &amp Andrew Paverd </li><li> Assembly: Jussi Laakkonen </li><li> Jonathan Mägi </li><li> BlackRock </li><li> 46elks: Martin Thuresson </li><li> Siili </li><li> Eve-tech: Velimir Elezovic </li></ul></div>"
+            "html": "<div style='' class='centered'> <ul id='programlist'> <li id='sched_header'> <span class='event' style='font-weight:700;'>Saturday keynotes</span> </li><li> Holvi: Sakari Ellonen <span style='float:right;padding-right:1em;'>15.30</span></li><li> Silo.ai: Ville Hulkko </li><li> Aalto Showcase: Perttu Hämäläinen <span style='float:right;padding-right:1em;'>16.15</span></li><li> Aalto Showcase: Varun Singh </li><li>Aalto Showcase: Mika Juuti &amp Andrew Paverd <span style='float:right;padding-right:1em;'>16.55</span></li><li> Assembly: Jussi Laakkonen </li><li> Jonathan Mägi <span style='float:right;padding-right:1em;'>17.35</span></li><li> BlackRock </li><li> 46elks: Martin Thuresson <span style='float:right;padding-right:1em;'>18.20</span></li><li> Siili </li><li> Eve-tech: Velimir Elezovic </li></ul></div>"
         },
         {
             "start": "2016-01-01 12:00 GMT+2",
