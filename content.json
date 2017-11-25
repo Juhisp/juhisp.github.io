@@ -28,6 +28,11 @@
             "start": "2016-01-01 12:00 GMT+2",
             "end": "2026-01-01 12:00 GMT+2",
             "html": "<div style='font-size: 1.8em;' class='centered'><div style='padding-top: 3em;'><span style='padding-left:3em;margin:auto;'>Photowall at the main stage. Go take your Junction photos!</span></div><ul style='width:23%;margin:auto;'><li >11.00-13.00</li><li>15.00-17.00</li><li>18.00-20.00</li></div>"
+        },
+        {
+            "start": "2016-01-01 12:00 GMT+2",
+            "end": "2026-01-01 12:00 GMT+2",
+            "html": "<div style='font-size: 2.4em;' class='centered'><span style='margin:auto;font-family:Montserrat;text-transform:uppercase;'><b>&quot;Lauantaina vietetään niin sanottua pääpäivää.&quot; -HS</b></span></div>"
         }
     ]
 }

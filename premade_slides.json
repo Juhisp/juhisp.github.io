@@ -38,6 +38,11 @@
             "start": "2016-01-01 12:00 GMT+2",
             "end": "2026-01-01 12:00 GMT+2",
             "html": "<div style='font-size: 3em;' class='centered'><span>Multiple slides can be added</span></div>"
+        },
+        {
+            "start": "2016-01-01 12:00 GMT+2",
+            "end": "2026-01-01 12:00 GMT+2",
+            "html": "<div style='font-size: 2.4em;' class='centered'><span style='margin:auto;font-family:Montserrat;text-transform:uppercase;'><b>&quot;Lauantaina vietetään niin sanottua pääpäivää.&quot; -HS</b></span></div>"
         }
     ]
 }
