@@ -9,7 +9,7 @@
         { "start": "2017-11-25 18:30 GMT+2", "end": "2017-11-25 22:00 GMT+2", "event": "Hackathon Organizer Meetup", "location": "Design Factory" },
         { "start": "2017-11-25 20:30 GMT+2", "end": "2017-11-25 21:00 GMT+2", "event": "!LIGHT - Code in the dark by MLH", "location": "Keynote Stage" },
         { "start": "2017-11-25 21:00 GMT+2", "end": "2017-11-25 23:59 GMT+2", "event": "Movie night in Kinopoli", "location": "Kinopoli" },
-        { "start": "2017-11-25 22:00 GMT+2", "end": "2017-11-25 22:00 GMT+2", "event": "Karaoke", "location": "Dipoli" }
+        { "start": "2017-11-25 22:00 GMT+2", "end": "2017-11-25 22:00 GMT+2", "event": "Karaoke", "location": "Keynote Stage" }
     ],
     "notes": [
         { "start": "2017-11-25 15:00 GMT+2", "end": "2017-11-25 17:59 GMT+2", "text": "Keynotes starting at 15:30 at the Keynote Stage (1st floor)!" }
