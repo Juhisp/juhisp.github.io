@@ -7,7 +7,6 @@
         { "start": "2017-11-25 15:30 GMT+2", "end": "2017-11-25 19:00 GMT+2", "event": "Keynotes", "location": "Keynote Stage" },
         { "start": "2017-11-25 17:00 GMT+2", "end": "2017-11-25 18:00 GMT+2", "event": "BlackRock workshop", "location": "Workshop Room (Poli)" },
         { "start": "2017-11-25 18:30 GMT+2", "end": "2017-11-25 22:00 GMT+2", "event": "Hackathon Organizer Meetup", "location": "Design Factory" },
-        { "start": "2017-11-25 20:15 GMT+2", "end": "2017-11-25 23:59 GMT+2", "event": "Palju Paradise", "location": "Startup Sauna" },
         { "start": "2017-11-25 20:30 GMT+2", "end": "2017-11-25 21:00 GMT+2", "event": "!LIGHT - Code in the dark by MLH", "location": "Keynote Stage" },
         { "start": "2017-11-25 21:00 GMT+2", "end": "2017-11-25 23:59 GMT+2", "event": "Movie night in Kinopoli", "location": "Kinopoli" },
         { "start": "2017-11-25 22:00 GMT+2", "end": "2017-11-25 22:00 GMT+2", "event": "Karaoke", "location": "Dipoli" }
