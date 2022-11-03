@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Juha-Pekka Puska</title>
+</head>
+<body>
+<div class="container">
+    <div class="picture">
+        <a href="profile_picture_large.jpeg"><img src="profile_picture.jpeg"></a>
+    </div>
+  <div class="sidebar">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#theses">Theses</a></li>
+  </ul>
+  </div>
+
+  <div class="main">
+  <h2 id="about">About Me</h2>
+  <p>I'm a doctoral researcher in the Inverse Problems group at the Department of Mathematics and Systems Analysis at Aalto University. My main research interests are in Bayesian optimal design methods and their applications in inverse problems and imaging.</p>
+  <p>Outside of work, I enjoy sports and exploration, and especially the combination of these: sailing, hiking, and ski touring.</p>
+   <p>I have also previously been active in Aaltoes, the student entrepreurship society in Aalto University, and was a Board Member in the Aaltoes alumni founded initiative <a href="https://ventures.tuolinkantajat.fi/">Tuolinkantajat Ventures</a>.</p>
+   <p>You can contact me firstname.lastname@aalto.fi</p>
+  <h2 id="publications">Publications</h2>
+  <ul>
+      <li>Burger, M., Hauptmann, A., Helin, T., Hyvönen, N., & Puska, J. P. (2021). Sequentially optimized projections in x-ray imaging. Inverse Problems, 37(7), 075006.</li>
+      <li>Helin, T., Hyvönen, N., & Puska, J. P. (2022). Edge-promoting adaptive Bayesian experimental design for X-ray imaging. SIAM Journal on Scientific Computing, 44(3), B506-B530.</li>
+  </ul>
+  <h2 id="theses">Theses</h2>
+  <ul>
+      <li>Optimizing Heating Patterns in Thermal Tomography, M. Sc. Thesis, Aalto University (2018)</li>
+  </ul>
+  </div>
+</div>
+</body>
+
+<style>
+body {
+	font-family: monospace;
+    font-size: 15px;
+}
+
+div.container {
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+    min-width: 650px;
+    /* border: 2px red solid; */
+}
+
+div.picture {
+    position: absolute;
+    top: 25px;
+	width: 150px;
+    height: 165px;
+    border: 1px solid;
+    /* padding: 2px 2px 0px 2px; */
+}
+
+div.sidebar {
+    position: absolute;
+	width: 100px;
+    top: 200px;
+}
+
+div.main {
+	position: absolute;
+    left: 180px;
+	max-width: 850px;
+    padding: 5px;
+}
+
+div.main li {
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    padding: 2px 2px 2px 0px;
+}
+.sidebar li {
+	/* border: 2px solid; */
+	display: inline-block;
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+    width:150px;
+}
+
+a {
+  link-style: none;
+}
+</style>
+</html>
